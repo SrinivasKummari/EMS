@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+ body{
+ 	background-image: url('../Images/schools7.jpg');
+ 	background-repeat: no-repeat;
+	 	
+ }
+
+.label{
+	width: 140px;
+	text-align:left;
+	margin-left: 5px;
+	height: 15px;
+	display:inline-block;
+}
+ .inputLogin  {
+height:15px;
+margin-left: 5px;
+display:inline-block;
+border: 3px solid #EBE6E2;
+border-radius: 5px;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+width:150px;
+}
+ .inputLogin:focus {
+border-color: #BBB;
+outline: none;
+}
+.inputs{
+display:inline-block;
+margin-left: 5px;
+border: 3px solid #EBE6E2;
+border-radius: 5px;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+width:156px;
+height: 20px;
+}
+.inputs:focus {
+border-color: #BBB;
+outline: none;
+}
+.submitLogin {
+	-moz-box-shadow:inset 0px 1px 0px 0px #293457;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #293457;
+	box-shadow:inset 0px 1px 0px 0px #293457;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #29a9db), color-stop(1, #c8d8e6) );
+	background:-moz-linear-gradient( center top, #29a9db 5%, #c8d8e6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#29a9db', endColorstr='#c8d8e6');
+	background-color: transparent;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:2px solid #404575;
+	display:inline-block;
+	color:#000000;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #4343ad;
+	margin-left: 300px;margin-top: 10px;
+}.submitLogin:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c8d8e6), color-stop(1, #29a9db) );
+	background:-moz-linear-gradient( center top, #c8d8e6 5%, #29a9db 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8d8e6', endColorstr='#29a9db');
+	background-color:#c8d8e6;
+}.submitLogin:active {
+	position:relative;
+	top:1px;
+}
+.container{
+	border-left:0px solid purple; 
+border-right:0px solid purple ;
+border-top:0px solid purple;
+border-bottom: 0px solid purple ;
+position:absolute;
+left:0%;
+right:0%;
+top:0%;
+bottom:0%;
+ background-image : url("../Images/schools7.jpg"); 
+ background-repeat: no-repeat;
+ 
+}
+.navigation{
+	border: 3px solid white;
+	border-right: 5px solid white;
+	border-left: 5px solid white;
+	position:absolute;
+	top: 20%;
+	left:0%;
+	width: 19%;
+	bottom:-70%;
+	
+	}
+.content{
+	border-left:3px solid white;
+	border-right:3px solid white ;
+	border-top:3px solid white;
+	border-bottom: 3px solid white;
+	position:absolute;
+	top:20%; 
+	left:19.7%;
+	right: 0%;
+	width: 80%;
+	bottom:-70.8%;
+	background-image: url("../Images/schools7.jpg");
+	background-repeat: no-repeat;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+		
+}
+.footerDiv{
+	border-left:2px solid white;
+	border-right:2px solid white ;
+	border-top:2px solid white;
+	border-bottom: 2px solid white;
+	position:absolute;
+	left:0%;
+	width: 100%;
+	height: 5%;
+	bottom: -75.8%;
+	top:170%;
+	text-align:center; 
+	background-color: #3300FF";
+	background: rgba(0, 0, 0, 0.5);
+	padding-top: 5px;
+	color: #1975FF;
+}
+.activityBox{
+	border-left:3px solid white;
+	border-right:3px solid white ;
+	border-top:3px solid white;
+	border-bottom: 3px solid white;
+	position:absolute;
+	top:5%; 
+	left:80%;
+	right: 0%;
+	height:94%;
+	
+	background-repeat: no-repeat;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+.fieldHead{
+	background-color: #3399FF;
+	border-radius:10px;
+	width: 1050px; 
+	border: 3px solid white;
+	margin-top:4px;
+}
+.fieldList{
+	border-radius:10px;
+	border: 2px solid white;
+}

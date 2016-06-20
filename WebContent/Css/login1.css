@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+ .inputLogin  {
+height:15px;
+border: 3px solid #EBE6E2;
+border-radius: 5px;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+width:150px;
+}
+ .inputLogin:focus {
+border-color: #BBB;
+outline: none;
+}
+
+.submitLogin {
+	-moz-box-shadow:inset 0px 1px 0px 0px #293457;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #293457;
+	box-shadow:inset 0px 1px 0px 0px #293457;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #29a9db), color-stop(1, #c8d8e6) );
+	background:-moz-linear-gradient( center top, #29a9db 5%, #c8d8e6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#29a9db', endColorstr='#c8d8e6');
+	background-color: transparent
+	background-color:#29a9db;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:2px solid #404575;
+	display:inline-block;
+	color:#f4f6f7;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #4343ad;
+}.submitLogin:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c8d8e6), color-stop(1, #29a9db) );
+	background:-moz-linear-gradient( center top, #c8d8e6 5%, #29a9db 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8d8e6', endColorstr='#29a9db');
+	background-color:#c8d8e6;
+}.submitLogin:active {
+	position:relative;
+	top:1px;
+}
+.container{
+position:absolute;
+left:0%;
+right:0%;
+top:0%;
+bottom:0%;
+height: 100%;
+width: 100%;
+ background-image : url("../Images/schools7.jpg");
+}
+.outerNavigation{
+	position:absolute;
+	left:0px;
+	top:110px;
+	width: 660px;
+	height: 498px; background-color: white;
+}
+.navigation{
+	border:5px solid white;
+	position:absolute;
+	left:0px;
+	top: 110px;
+	right:0px;
+	bottom:0px;
+	width: 650px;
+	height: 488px;
+	display:inline-block;
+	background-image: url("../Images/school.jpg");
+	background-repeat: no-repeat;
+}
+.content{
+	position:absolute;
+	top:110px; 
+	right: 0px;
+width: 610px;
+	height: 498px;	
+}
+.footerDiv{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	width: 100%;
+	
+}
